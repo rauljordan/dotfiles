@@ -1,3 +1,7 @@
+# Personal Dotfiles
+
+This repo contains all my personal dotfile configurations for a cool, modified Ubuntu computer using all the nifty tools that enhance development productivity.
+
 - i3-gaps
 - Compton for transparency in windows
 - Termite as a terminal emulator
