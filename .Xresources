@@ -1,0 +1,121 @@
+
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+#define base00 #121c21
+#define base01 #3E4970
+#define base02 #304b59
+#define base03 #3f6173
+#define base04 #7b8e98
+#define base05 #aaafb2
+#define base06 #bcd9e8
+#define base07 #cfefff
+#define base08 #f0696f
+#define base09 #fa9a6a
+#define base0A #f7cca1
+#define base0B #76a08c
+#define base0C #5f9993
+#define base0D #718c97
+#define base0E #ceb5ce
+#define base0F #877366
+
+*.foreground:   base05
+*.background:   base00
+*.cursorColor: base05
+*fading: 0
+*fadeColor: #0F0209
+
+*color0:       base00
+*color1:       base01
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base08
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:     base07
+
+!-----------------------------------------------------------------------
+!!                        URxvt settings 
+!!-----------------------------------------------------------------------
+!
+!URxvt.internalBorder:    10
+!URxvt.externalBorder:    0
+!!URxvt.lineSpace:        0
+!!urxvt*shading:          30
+!URxvt.depth:             32
+!URxvt.saveLines:         10000
+!!URxvt.geometry:      96x35
+!URxvt*terminalName:      rxvt-unicode-256color
+!URxvt*visualBell:        false
+!
+!!! Scrollbar
+!!URxvt.scrollStyle:      rxvt
+!URxvt.scrollBar:         false
+!URxvt*scrollTtyOutput:   false
+!URxvt*scrollWithBuffer:  true
+!URxvt*scrollTtyKeypress: true
+!
+!!URxvt*font: xft:Source Code Pro:size=11
+!URxvt*font: xft:Source Code Pro for Powerline:size=11
+!!URxvt*font: xft:Inconsolata for Powerline:size=13:style=Medium
+!
+!
+!! match vte/xterm
+!URxvt.keysym.Control-Up:    \033[1;5A
+!URxvt.keysym.Control-Down:  \033[1;5B
+!URxvt.keysym.Control-Left:  \033[1;5D
+!URxvt.keysym.Control-Right: \033[1;5C
+!
+!
+!! ------------------------------------------------------------------------------
+!! ROFI Color theme
+!! ------------------------------------------------------------------------------
+!
+!rofi.modi: window,run,ssh,drun
+!
+!rofi.font: Source Code Pro Regular 11
+!rofi.hide-scrollbar: true
+!rofi.bw: 1 !border width
+!rofi.columns: 3
+!rofi.padding: 15
+!rofi.sidebar-mode: true
+!rofi.separator-style: solid
+!
+!rofi.yoffset: 0 
+!rofi.location: 0
+!rofi.width: 60
+!rofi.lines: 15
+!rofi.fixed-num-lines: true
+!rofi.opacity: 100
+!rofi.fullscreen: false
+!
+!rofi.show-icons: true
+!
+!!rofi colors
+!#define bg base00
+!#define fg base05
+!#define hlbg base05
+!#define hlfg base00
+!
+!rofi.color-enabled: true
+!
+!! State:           'bg',     'fg',    'bgalt',  'hlbg',  'hlfg'
+!rofi.color-normal: bg,   fg,fg   bg,       hlbg,   hlfg
+!rofi.color-urgent: bg,     fg,   bg,       hlbg,   hlfg
+!rofi.color-active: bg,activefg,bgbg,activefg   hlbg,   hlfg
+!
+!!                  'background',background'border',border'separator'
+!rofi.color-window:  bg,rofi base09,rofi fg
